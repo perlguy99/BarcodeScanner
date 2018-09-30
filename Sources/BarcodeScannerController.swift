@@ -30,7 +30,7 @@ public protocol BarcodeScannerDismissalDelegate: class {
 open class BarcodeScannerController: UIViewController {
 
   /// Video capture device.
-    lazy var captureDevice: AVCaptureDevice = AVCaptureDevice.default(for: AVMediaType.video)
+    lazy var captureDevice: AVCaptureDevice = AVCaptureDevice.default(for: AVMediaTypeVideo)
 //  lazy var captureDevice: AVCaptureDevice = AVCaptureDevice.defaultDevice(withMediaType: AVMediaTypeVideo)
     
 
